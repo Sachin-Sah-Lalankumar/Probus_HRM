@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sevillana&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap');
 
 * {
     margin: 0;
@@ -29,8 +29,12 @@ nav {
         transform: translateY(0);
     }
 }
-p {
+p .animated-text {
     color: #000;
+    font-size: 5px;
+}
+h1{
+    Text 
 }
 
 .logo {
@@ -103,6 +107,7 @@ header {
     align-items: center;
     text-align: center;
     color: #000;
+    
 }
 
 .header-content {
@@ -110,17 +115,12 @@ header {
 }
 
 .header-content h1 {
-    font-family: 'Pacifico', cursive;
     font-size: 3em;
+    color: #ff8800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
-.animated-text {
-    font-size: 1.5em;
-    margin: 20px 0;
-    animation: fadeIn 3s infinite;
-}
-
 .get-started-btn {
+    margin: 20px;
     padding: 15px 30px;
     border: none;
     background-color: #28a745;
@@ -129,6 +129,7 @@ header {
     cursor: pointer;
     transition: background-color 0.3s;
     animation: bounceIn 2s;
+    border-radius: 5px 2px 3px;
 }
 .get-started-btn a{
     color: white;
@@ -141,6 +142,7 @@ header {
 
 .get-started-btn:hover {
     background-color: #218838;
+    
 }
 
 section {
@@ -227,3 +229,30 @@ img {
         transform: scale(1);
     }
 }
+/* //Text-Styling> */
+  .animated-text-main {
+    font-size: 2em;
+    color: #333;
+    white-space: nowrap; /* Prevents the text from wrapping */
+    overflow: hidden; /* Ensures no overflow beyond container */
+    border-right: .15em solid #333; /* Creates the blinking cursor effect */
+    animation: typing 3s steps(30, end), blink-caret .5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #333;
+    }
+  }

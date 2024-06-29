@@ -8,3 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
         textIndex = (textIndex + 1) % textArray.length;
     }, 3000);
 });
+const text = document.querySelector('.animated-text-main');
+  const textContent = text.textContent;
+  text.textContent = '';
+
+  for (let i = 0; i < textContent.length; i++) {
+    setTimeout(function() {
+      text.textContent += textContent[i];
+    }, 100 * i);
+  }
