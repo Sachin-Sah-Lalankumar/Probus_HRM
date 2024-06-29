@@ -130,6 +130,14 @@ header {
     transition: background-color 0.3s;
     animation: bounceIn 2s;
 }
+.get-started-btn a{
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    animation: bounceIn 2s;
+    text-decoration: none;
+}
 
 .get-started-btn:hover {
     background-color: #218838;
