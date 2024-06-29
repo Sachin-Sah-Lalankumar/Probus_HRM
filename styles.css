@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sevillana&display=swap");
 
 * {
     margin: 0;
@@ -30,7 +29,6 @@ nav {
         transform: translateY(0);
     }
 }
-
 p {
     color: #000;
 }
@@ -57,7 +55,7 @@ p {
 }
 
 .nav-links a:hover {
-    color: #FFF700;
+    color: #ff8800;
 }
 
 .auth-buttons {
@@ -68,14 +66,33 @@ p {
     margin-left: 10px;
     padding: 10px 20px;
     border: none;
-    background-color: #555;
-    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 17%, rgba(0,212,255,1) 100%);
     cursor: pointer;
     transition: background-color 0.3s;
+    text-decoration: none;
+}.auth-buttons button a {
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
 }
+
 
 .auth-buttons button:hover {
     background-color: #777;
+}
+button{
+    border: 1px solid #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #FFF700;
+}
+.auth-buttons .login-btn{
+    border: 1px solid #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#fff;
 }
 
 header {
