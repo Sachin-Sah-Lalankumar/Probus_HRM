@@ -11,14 +11,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('https://images.unsplash.com/photo-1573848953384-3be02021eb0b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Replace with your background image path */
+    background-image: url('https://cdn.pixabay.com/photo/2024/05/18/19/21/books-8770940_1280.jpg'); /* Replace with your background image path */
     background-size: cover;
     background-position: center;
 }
 
 .container {
     width: 100%;
-    max-width: 360px;
+    max-width: 350px;
     background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
     padding: 20px;
     border-radius: 8px;
