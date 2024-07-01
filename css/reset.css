@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada&family=Poppins&family=Luckiest+Guy&display=swap');
+
+/*resets*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', times;
+}
+
+:root {
+  --primary-text-color: #ffffff;
+  --accent-color: cyan;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-shadow: 0px 0px 10px var(--accent-color);
+  backdrop-filter: blur(10px);
+}
+
+body {
+  color: var(--primary-text-color);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: 'Labrada', times;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.hover-link {
+  transition: 0.3s ease-in-out;
+  text-shadow: 0px 0px 2px var(--accent-color), 0px 0px 4px var(--accent-color);
+  cursor: pointer;
+  color: var(--primary-text-color);
+}
+
+.btn,
+.hover-link:hover {
+  font-size: 1.2rem;
+  text-shadow: 0px 0px 4px var(--accent-color), 0px 0px 5px var(--accent-color);
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 1px var(--accent-color),
+    0px 0px 2px 1px var(--accent-color) inset;
+  padding: 4px 10px;
+  backdrop-filter: blur(10px);
+  background: linear-gradient(to top left, #22224499, #44445522);
+}
+
+.btn:hover {
+  font-size: 1.3rem;
+  font-weight: 800;
+  border: none;
+  border-radius: 13px;
+  box-shadow: 0px 0px 10px 3px var(--accent-color);
+  background: var(--accent-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90vw;
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.bg-img {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to top left, #33335577, #111122bb), url('');
+  background-size: cover;
+  background-position: center;
+  z-index: -100;
+}
+
+.cool-container {
+  background: linear-gradient(to top left, #111122aa, #33334455);
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px var(--accent-color);
+  backdrop-filter: blur(12px);
+  padding: 1rem;
+}
+
+.flash {
+  animation: flash 2s linear infinite alternate;
+}
+
+@keyframes flash {
+  0%,
+  15%,
+  21%,
+  33%,
+  41%,
+  99% {
+    text-shadow: 0px 0px 4px var(--accent-color),
+      0px 0px 5px var(--accent-color), 0px 0px 7px var(--accent-color);
+    color: #ffffff;
+  }
+  16%,
+  20%,
+  34%,
+  40%,
+  100% {
+    text-shadow: none;
+    color: #ffffff33;
+  }
+}
+
+/*logo*/
+
+.logo-half {
+  background: linear-gradient(to top left, #008888, var(--accent-color));
+  padding: 2px 5px;
+  border-radius: 15px;
+  text-shadow: 0px 0px 7px #006666;
+}
+
+/*icons*/
+
+.icon {
+  font-size: 2rem;
+  text-shadow: 0px 0px 7px var(--accent-color);
+  transition: all 0.4s;
+}
+
+.icon:hover {
+  text-shadow: 0px 0px 4px var(--accent-color), 0px 0px 5px var(--accent-color),
+    0px 0px 7px var(--accent-color);
+  color: var(--accent-color);
+}

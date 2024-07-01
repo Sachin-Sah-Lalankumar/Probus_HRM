@@ -1,19 +1,11 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const animatedText = document.querySelector('.animated-text');
-    let textArray = ['Creating innovative solutions for you', 'Empowering your business', 'Building the future'];
-    let textIndex = 0;
+// Example: Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
 
-    setInterval(() => {
-        animatedText.textContent = textArray[textIndex];
-        textIndex = (textIndex + 1) % textArray.length;
-    }, 3000);
+    const target = document.querySelector(this.getAttribute('href'));
+    target.scrollIntoView({
+      behavior: 'smooth',
+    });
+  });
 });
-const text = document.querySelector('.animated-text-main');
-  const textContent = text.textContent;
-  text.textContent = '';
-
-  for (let i = 0; i < textContent.length; i++) {
-    setTimeout(function() {
-      text.textContent += textContent[i];
-    }, 100 * i);
-  }

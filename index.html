@@ -1,47 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
-        <div class="logo">PROBUS</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="auth-buttons">
-            <button class="login-btn"><a href="../login/index.html">Login</a></button>
+<html>
+  <head>
+    <title>DevoHub</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="bg-img"></div>
+    <header class="hero">
+      <div class="container flex">
+        <div class="hero-text">
+          <h1>
+            <span>P</span>
+            <span>R</span>
+            <span>O</span>
+            <span>B</span>
+            <span>U</span>
+            <span>S</span>
+          </h1>
+          <h2>Software Private Limited</h2>
+          <p>
+            We love create experience that enable people to connect, express
+            themselves and establish meaningful relationships
+          </p>
+          <br />
+          <a class="hover-link btn" href="../login/index.html">Get Started</a>
         </div>
-    </nav>
-    <header>
-        <div class="header-content">
-            <h1 class="animated-text-main">Welcome to PROBUS</h1>
-            <p class="animated-text">Creating innovative solutions for you</p>
-            <button class="get-started-btn"><a href="../login/index.html">Get Started</a></button>
-        </div>
+        <div class="hero-img"></div>
+      </div>
     </header>
-    <section id="home">
-        <h2>Home</h2>
-        <img src="https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Example Image">
-    </section>
-    <section id="about">
-        <h2>About</h2>
-        <p>About Us content goes here.</p>
-    </section>
-    <section id="features">
-        <h2>Features</h2>
-        <p>Features content goes here.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Contact Us content goes here.</p>
-    </section>
-    <script src="script.js"></script>
-</body>
+  </body>
 </html>

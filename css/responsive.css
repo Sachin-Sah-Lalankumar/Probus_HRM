@@ -1,0 +1,147 @@
+/*responsive*/
+
+@media screen and (max-width: 900px) {
+  /*resets*/
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  p {
+    line-height: 1.2rem;
+    font-size: 1rem;
+  }
+  .container,
+  .cool-container {
+    padding: 0.6rem;
+  }
+
+  /*nav*/
+  nav {
+    top: 1rem;
+  }
+  .nav-toggle {
+    display: block;
+    transition: 0.3s ease-in-out;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute;
+    right: -100%;
+    top: 101%;
+    width: 70vw;
+    padding-block: 2rem;
+    opacity: 0.2;
+    background: linear-gradient(to top left, #111122dd, #333344fe);
+    transition: 0.3s ease-in-out;
+  }
+  .nav-active {
+    right: 0;
+    opacity: 1;
+  }
+  .nav-cross {
+    transform: rotate(140deg);
+  }
+
+  /*hero*/
+  .hero .container {
+    flex-direction: column-reverse;
+    gap: 2rem;
+    justify-content: flex-end;
+  }
+  .hero-img {
+    height: 40vh;
+    width: 100%;
+  }
+  .hero-text {
+    width: 100%;
+  }
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  /*signup-login*/
+  .sl-box {
+    width: 80vw;
+    padding: 10px 15px;
+  }
+
+  /*home*/
+  .sec-area {
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .sec-card {
+    width: 40%;
+    min-height: 12rem;
+  }
+
+  /*profiles*/
+  .profiles {
+    gap: 2rem;
+  }
+  .user {
+    width: 95%;
+  }
+
+  /*user-profile*/
+  .psec {
+    width: 80vw;
+    margin-top: 5rem;
+  }
+  .psec iframe {
+    height: 120vw;
+  }
+  .interact-bar {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .cnr,
+  .username {
+    width: 100%;
+    gap: inherit;
+    justify-content: space-between;
+  }
+
+  /*posts*/
+  .post-nav,
+  .create-post,
+  .admin-nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .posts {
+    gap: 2rem;
+  }
+  .post {
+    width: 95%;
+  }
+
+  /*admin-panel*/
+  .user-data {
+    flex-direction: column;
+  }
+  .left-ud,
+  .right-ud {
+    width: 100%;
+  }
+  .right-ud {
+    align-items: flex-end;
+  }
+
+  /*footer*/
+  footer .sec-area {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  .fsec {
+    align-items: center;
+  }
+}
