@@ -18,7 +18,7 @@ exit;
 $sql = "INSERT INTO users (username, email,password) VALUES ('$username', '$email', $password')";
 		
 if ($mysqli->query($sql) === TRUE) {
-	header("Location: ../loginSign_failed/signup-successful.html");
+	header("Location:loginSign_failed/signup-successful.html");
 } else {
 	$signupError = " Error: " . $sql . "<br>" . $mysqli->error;
 	echo $signupError;
