@@ -3,7 +3,7 @@ $mysqli = require __DIR__ . "/dbcon.php";
 
 $username = $_POST['username'];
 $email = $_POST['email'];
-$password = $_POST['password'];		
+$password = $_POST['password'];
 
 // Check if the email is already registered
 $sql = "SELECT * FROM users WHERE email = '$email'";
