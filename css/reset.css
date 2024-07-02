@@ -11,7 +11,7 @@
 
 :root {
   --primary-text-color: #ffffff;
-  --accent-color: cyan;
+  --accent-color: rgb(255, 123, 0);
 }
 
 html {
