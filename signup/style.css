@@ -1,112 +1,115 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-<<<<<<< HEAD
-    background-image: url('https://cdn.pixabay.com/photo/2024/06/10/15/05/flower-8820894_1280.png'); /* Replace with your background image path */
-=======
-    background-image: url('https://cdn.pixabay.com/photo/2024/05/18/19/21/books-8770940_1280.jpg'); /* Replace with your background image path */
->>>>>>> 9ba1407790fe1fe315692ffa59f4558d357c9168
-    background-size: cover;
-    background-position: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://cdn.pixabay.com/photo/2024/06/10/15/05/flower-8820894_1280.png'); /* Replace with your background image path */
+  background-image: url('https://cdn.pixabay.com/photo/2024/05/18/19/21/books-8770940_1280.jpg'); /* Replace with your background image path */
+
+  background-size: cover;
+  background-position: center;
 }
 
 .container {
-    width: 100%;
-    max-width: 350px;
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    overflow: hidden; /* Ensure rounded corners apply correctly */
-    animation: fadeIn 0.5s ease; /* Fade-in animation */
+  width: 100%;
+  max-width: 350px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden; /* Ensure rounded corners apply correctly */
+  animation: fadeIn 0.5s ease; /* Fade-in animation */
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .login-card {
-    padding: 20px;
+  padding: 20px;
 }
 
 .login-card h2 {
-    margin-bottom: 20px;
-    color: #333;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 .input-container {
-    margin-bottom: 15px;
-    text-align: left;
+  margin-bottom: 15px;
+  text-align: left;
 }
 
 label {
-    display: block;
-    margin-bottom: 5px;
-    color: #666;
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-    width: calc(100% - 12px);
-    padding: 8px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    transition: border-color 0.3s ease;
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  width: calc(100% - 12px);
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus {
-    outline: none;
-    border-color: #66afe9;
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='password']:focus {
+  outline: none;
+  border-color: #66afe9;
 }
 
 .login-btn {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .login-btn:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
 .signup-link {
-    margin-top: 15px;
-    color: #666;
-    font-size: 14px;
+  margin-top: 15px;
+  color: #666;
+  font-size: 14px;
 }
 
 .signup-link a {
-    color: #4caf50;
-    text-decoration: none;
-    transition: color 0.3s ease;
+  color: #4caf50;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .signup-link a:hover {
-    color: #45a049;
+  color: #45a049;
 }
