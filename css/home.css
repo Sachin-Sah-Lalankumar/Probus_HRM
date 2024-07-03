@@ -1,0 +1,92 @@
+/*header*/
+
+.hero .container {
+	margin-top: 5rem;	
+}
+
+/*profile nd posts*/
+
+.sec {
+	margin-top: 5rem;
+	text-align: center;
+
+}
+
+.sec-head, .sec-btn {
+	margin-block: 2rem;
+}
+
+.sec-area {
+	justify-content: space-around;
+}
+
+#profiles .sec-area .sec-card:nth-child(1) {
+	background: linear-gradient(to top, rgb(0,0,0,1), rgb(0,0,0,0)), url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzb-grbkaxSp1H1ceDrL-4HBWLh9XU-gwwBBXfcjXuuZHQsaZmMuSSFLI4HrSCj4hKGsdUD34RPJg4yeP6UBSNDNy_HAB29k0IZ2vm1C0l--NGlRGe4oz_mghm6o8qoM3xtLSE3FnQlirotsk3ZPULZGit5-9AZ_Hb4Tg_BaQRrLyMhAK3Ga8oS4_v5w/s320/raunak1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#profiles .sec-area .sec-card:nth-child(2) {
+	background: linear-gradient(to top, rgb(0,0,0,1), rgb(0,0,0,0)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5cCZ_KejbXDLCCUhAWQmD3VfuOjT0rKnCXA&usqp=CAU");
+	background-size: cover;
+	background-position: center;
+}
+
+#profiles .sec-area .sec-card:nth-child(3) {
+	background: linear-gradient(to top, rgb(0,0,0,1), rgb(0,0,0,0)), url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnZklMuUtphq-UCkM5HkjT_v0axz8qrlxZmuO0FZxVn9W6Ir3H3ZisJYHopKAZk1HOvghRaWZFNPtnkkpWVmsgZFETe5kQ_VsVicPJ9Ocv7mL3bGZ3yr5K1cWXsDtatP5VGVtTyA2ToARdr1_iqGq2JO8DnrVMU52r9IRwsiW0YIJYpDiJaI3IXaZbFw/s320/raunak.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#profiles .sec-area .sec-card:nth-child(4) {
+	background: linear-gradient(to top, rgb(0,0,0,1), rgb(0,0,0,0)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSleLbRh9j4b72CKtVsDHIxMI-dbcA7mMoVYQ&usqp=CAU");
+	background-size: cover;
+	background-position: center;
+}
+
+#posts .sec-area .sec-card:nth-child(1) {
+	background: linear-gradient(to top, rgb(0,0,0,1), rgb(0,0,0,0)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS8G7zj9dclz-_qjTNs35TDkaIAcMPCye9qA&usqp=CAU");
+	background-size: cover;
+	background-position: center;
+}
+
+#posts .sec-area .sec-card:nth-child(2) {
+	background: linear-gradient(to top, rgb(0,0,0,1), rgb(0,0,0,0)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB7rmZilbIBYylxGkbDTq4N9WfD_fC41k5Tg&usqp=CAU");
+	background-size: cover;
+	background-position: center;
+}
+
+#posts .sec-area .sec-card:nth-child(3) {
+	background: linear-gradient(to top, rgb(0,0,0,1), rgb(0,0,0,0)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF6DBg0s3Iin3di1sIIk-0frE_aeAmRl3c8w&usqp=CAU");
+	background-size: cover;
+	background-position: center;
+}
+
+#posts .sec-area .sec-card:nth-child(4) {
+	background: linear-gradient(to top, rgb(0,0,0,1), rgb(0,0,0,0)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVajkHJYnezM2rQtGb6Vx8W7VbFd8mtGx1mw&usqp=CAU");
+	background-size: cover;
+	background-position: center;
+}
+
+.sec-card {
+	width: 20%;
+	min-height: 20rem;
+	overflow: auto;
+	position: relative;
+	transition: 0.3s ease-in-out;
+}
+
+.sec-card:hover {
+	box-shadow: 0 0 1rem var(--accent-color);
+}
+
+.sec-card-text {
+	position: absolute;
+	bottom: 1rem;
+	right: 1rem;
+	left: 1rem;
+}
+
+#more .sec-area {
+	margin-block: 2rem;
+}

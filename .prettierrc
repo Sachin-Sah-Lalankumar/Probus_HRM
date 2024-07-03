@@ -1,7 +1,14 @@
 {
   "semi": true,
+<<<<<<< HEAD
   "singleQuote": true,
   "tabWidth": 2,
   "useTabs": false,
   "htmlWhitespaceSensitivity": "ignore"
+=======
+  "tabWidth": 2,
+  "printWidth": 80,
+  "singleQuote": true,
+  "trailingComma": "es5"
+>>>>>>> 9ba1407790fe1fe315692ffa59f4558d357c9168
 }

@@ -11,7 +11,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+<<<<<<< HEAD
     background-image: url('https://cdn.pixabay.com/photo/2024/06/10/15/05/flower-8820894_1280.png'); /* Replace with your background image path */
+=======
+    background-image: url('https://cdn.pixabay.com/photo/2024/05/18/19/21/books-8770940_1280.jpg'); /* Replace with your background image path */
+>>>>>>> 9ba1407790fe1fe315692ffa59f4558d357c9168
     background-size: cover;
     background-position: center;
 }
